@@ -28,4 +28,7 @@ def run():
       total = first ** second
       print(total)
 
+  else:
+      run()
+
 run()
