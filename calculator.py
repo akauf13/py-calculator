@@ -12,5 +12,9 @@ def run():
       total = first + second
       print(total)
 
+  elif operation == 's' or operation == 'S':
+      total = first - second
+      print(total)
+
 
 run()
