@@ -24,5 +24,8 @@ def run():
       total = first / second
       print(total)
 
+  elif operation == 'e' or operation == 'E':
+      total = first ** second
+      print(total)
 
 run()
