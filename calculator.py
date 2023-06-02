@@ -20,5 +20,9 @@ def run():
       total = first * second
       print(total)
 
+  elif operation == 'd' or operation == 'D':
+      total = first / second
+      print(total)
+
 
 run()
