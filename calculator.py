@@ -16,5 +16,9 @@ def run():
       total = first - second
       print(total)
 
+  elif operation == 'm'or operation == 'M':
+      total = first * second
+      print(total)
+
 
 run()
